@@ -1,0 +1,17 @@
+{
+  "name": "custom-bootstrap-example",
+  "authors": [
+    "Trey Hunner <trey@treyhunner.com>"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.3"
+  }
+}

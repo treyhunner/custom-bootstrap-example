@@ -1,0 +1,27 @@
+{
+  "name": "custom-bootstrap-example",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-bower": "0.0.10",
+    "gulp-sass": "^1.3.3",
+    "gulp-sourcemaps": "^1.3.0",
+    "gulp-uglifyjs": "^0.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/treyhunner/custom-bootstrap-example.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/treyhunner/custom-bootstrap-example/issues"
+  },
+  "homepage": "https://github.com/treyhunner/custom-bootstrap-example"
+}
