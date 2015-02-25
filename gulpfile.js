@@ -10,7 +10,7 @@ var config = {
 
 gulp.task('fonts', function() {
   return gulp.src([
-    config.bowerDir + '/bootstrap-sass-official/assets/fonts/**/*',
+    config.bowerDir + '/bootstrap-sass/assets/fonts/**/*',
   ])
   .pipe(gulp.dest(config.publicDir + '/fonts'));
 });
@@ -18,7 +18,7 @@ gulp.task('fonts', function() {
 gulp.task('js', function() {
   return gulp.src([
     config.bowerDir + '/jquery/dist/jquery.min.js',
-    config.bowerDir + '/bootstrap-sass-official/assets/javascripts/bootstrap.js',
+    config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.js',
   ])
   .pipe(uglify('app.js', {
     compress: false,
@@ -32,7 +32,7 @@ gulp.task('css', function() {
   .pipe(sourcemaps.init())
   .pipe(sass({
     style: 'compressed',
-    includePaths: [config.bowerDir + '/bootstrap-sass-official/assets/stylesheets'],
+    includePaths: [config.bowerDir + '/bootstrap-sass/assets/stylesheets'],
   }))
   .pipe(sourcemaps.write())
   .pipe(gulp.dest(config.publicDir + '/css'));
