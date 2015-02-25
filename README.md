@@ -10,3 +10,6 @@ To build the CSS, run `gulp`:
 Once you have built the CSS, open `index.html` in your web browser to view the customized Bootstrap template.
 
 To customize the build further, modify the variables in the `css/variables.scss` file.
+
+![screenshot before customizations](screenshots/before.png?raw=true)
+![screenshot after customizations](screenshots/after.png?raw=true)
