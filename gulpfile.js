@@ -31,7 +31,7 @@ gulp.task('css', function() {
   return gulp.src('css/app.scss')
   .pipe(sourcemaps.init())
   .pipe(sass({
-    style: 'compressed',
+    outputStyle: 'compressed',
     includePaths: [config.bowerDir + '/bootstrap-sass/assets/stylesheets'],
   }))
   .pipe(sourcemaps.write())
